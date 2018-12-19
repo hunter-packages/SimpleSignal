@@ -37,7 +37,7 @@ install(
 
 install(
     DIRECTORY ${CMAKE_CURRENT_LIST_DIR}
-    DESTINATION include/SimpleSignal
+    DESTINATION ${include_install_dir}/SimpleSignal
     FILES_MATCHING PATTERN "*.h"
 )
 
